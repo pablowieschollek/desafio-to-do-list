@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">    
+    <title>Document</title>
+</head>
+<body>
+    <h3>Nueva tarea</h3>
+    <input id="bar"></input> 
+    <button id="ingresar" class="btn btn-primary" onclick="addSth()">Ingresar</button>
+    <h3 id="total"></h3>
+    <h3 id="realizadas">Tareas completadas:</h3>
+    <!--- GRID DE BOOTSTRAP-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                ID
+            </div>
+            <div class="col-sm">
+                TAREAS
+            </div>
+            <div class="col-sm">
+                ELIMINAR
+            </div>
+            <div class="col-sm">
+                REALIZADA
+            </div>
+        </div>
+        <!--- aca inyecto el codigo-->
+        <div id="insertHtml"></div>
+
+    </div>
+
+    <h3></h3><ul id="task"></ul>
+
+</body>
+<script src="assets/js/script.js"></script>
+
+</html>
